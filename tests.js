@@ -43,8 +43,12 @@ describe("Variables en JS", () => {
     it("Completa todas las variables que faltan para que se cumplan las condiciones", () => {
 
         let a = 10;
+        let b = 100;
+        let c;
+        let d = "Hi";
+        let n = "Pepe";
 
-        if 
+        
 
         expect(a > 9).to.be.true;
         expect(a < 11).to.be.true;
@@ -68,7 +72,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "KO").to.be.true;
     })
 
     it("comparando cadenas (strings)", () => {
@@ -84,7 +88,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "pikachu").to.be.true
     })
 
     it("Interpolación de cadenas (strings) (1)", () => {
@@ -101,7 +105,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "Pizza con Pepperoni").to.be.true;
     })
 
     it("Interpolación de cadenas (strings) (2)", () => {
@@ -118,7 +122,7 @@ describe("condicionales en javascript", () => {
         }
 
         // substituye ??? por el valor que tiene la variable "result"        
-        expect(result === "???").to.be.true;
+        expect(result === "Pizza con Piña").to.be.true;
     })
 })
 
