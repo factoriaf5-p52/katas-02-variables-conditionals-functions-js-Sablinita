@@ -5,6 +5,11 @@ describe("Variables en JS", () => {
     it("Completa todas las constantes que faltan", () => {
 
         const a = 10;
+        const b = 1.34;
+        const c = true;
+        const d = "Buenos días";
+        const e = "Pepe";
+        const f = "Buenos días, pepe";
 
         expect(a).to.equal(10);
         expect(b).to.equal(1.34);
@@ -17,6 +22,14 @@ describe("Variables en JS", () => {
     it("Completa todas las variables que faltan para que las operaciones resulten correctamente", () => {
 
         let a = 11;
+        let b = 0.34;
+        let c = 10;
+        let d = 360;
+        let e = 700;
+        let f = 10;
+        let g = 3;
+        let x = 4;
+        let y = 5;
 
         expect(a + b).to.equal(11.34);
         expect(a * c).to.equal(110);
@@ -30,6 +43,8 @@ describe("Variables en JS", () => {
     it("Completa todas las variables que faltan para que se cumplan las condiciones", () => {
 
         let a = 10;
+
+        if 
 
         expect(a > 9).to.be.true;
         expect(a < 11).to.be.true;
@@ -47,7 +62,7 @@ describe("condicionales en javascript", () => {
 
         let result = "KO";
 
-        // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/length
+        //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/length
         if (name.length === 6) {
             result = "OK"
         }
